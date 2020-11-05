@@ -1,5 +1,0 @@
-<launch>
-    <node pkg="turtlesim" type="turtlesim_node" name="simulator"/>
-    <node pkg="hw1" type="chaser.py" name="chaser" output="screen"/>
-    <node pkg="turtlesim" type="turtle_teleop_key" name="controller"/>
-</launch>
